@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BBF3F8CE2DE4F3CC007B123A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBF3F8B42DE4F3CA007B123A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBF3F8BB2DE4F3CA007B123A;
+			remoteInfo = TabletNotes;
+		};
+		BBF3F8D82DE4F3CC007B123A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBF3F8B42DE4F3CA007B123A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBF3F8BB2DE4F3CA007B123A;
+			remoteInfo = TabletNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBF3F8BC2DE4F3CA007B123A /* TabletNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabletNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF3F8CD2DE4F3CC007B123A /* TabletNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF3F8D72DE4F3CC007B123A /* TabletNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabletNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BBF3F8DF2DE4F3CC007B123A /* Exceptions for "TabletNotes" folder in "TabletNotes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BBF3F8BB2DE4F3CA007B123A /* TabletNotes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BBF3F8BE2DE4F3CA007B123A /* TabletNotes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BBF3F8DF2DE4F3CC007B123A /* Exceptions for "TabletNotes" folder in "TabletNotes" target */,
+			);
+			path = TabletNotes;
+			sourceTree = "<group>";
+		};
+		BBF3F8D02DE4F3CC007B123A /* TabletNotesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabletNotesTests;
+			sourceTree = "<group>";
+		};
+		BBF3F8DA2DE4F3CC007B123A /* TabletNotesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabletNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBF3F8B92DE4F3CA007B123A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF3F8CA2DE4F3CC007B123A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF3F8D42DE4F3CC007B123A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBF3F8B32DE4F3CA007B123A = {
+			isa = PBXGroup;
+			children = (
+				BBF3F8BE2DE4F3CA007B123A /* TabletNotes */,
+				BBF3F8D02DE4F3CC007B123A /* TabletNotesTests */,
+				BBF3F8DA2DE4F3CC007B123A /* TabletNotesUITests */,
+				BBF3F8BD2DE4F3CA007B123A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF3F8BD2DE4F3CA007B123A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF3F8BC2DE4F3CA007B123A /* TabletNotes.app */,
+				BBF3F8CD2DE4F3CC007B123A /* TabletNotesTests.xctest */,
+				BBF3F8D72DE4F3CC007B123A /* TabletNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF3F8BB2DE4F3CA007B123A /* TabletNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF3F8E02DE4F3CC007B123A /* Build configuration list for PBXNativeTarget "TabletNotes" */;
+			buildPhases = (
+				BBF3F8B82DE4F3CA007B123A /* Sources */,
+				BBF3F8B92DE4F3CA007B123A /* Frameworks */,
+				BBF3F8BA2DE4F3CA007B123A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BBF3F8BE2DE4F3CA007B123A /* TabletNotes */,
+			);
+			name = TabletNotes;
+			packageProductDependencies = (
+			);
+			productName = TabletNotes;
+			productReference = BBF3F8BC2DE4F3CA007B123A /* TabletNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBF3F8CC2DE4F3CC007B123A /* TabletNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF3F8E52DE4F3CC007B123A /* Build configuration list for PBXNativeTarget "TabletNotesTests" */;
+			buildPhases = (
+				BBF3F8C92DE4F3CC007B123A /* Sources */,
+				BBF3F8CA2DE4F3CC007B123A /* Frameworks */,
+				BBF3F8CB2DE4F3CC007B123A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBF3F8CF2DE4F3CC007B123A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BBF3F8D02DE4F3CC007B123A /* TabletNotesTests */,
+			);
+			name = TabletNotesTests;
+			packageProductDependencies = (
+			);
+			productName = TabletNotesTests;
+			productReference = BBF3F8CD2DE4F3CC007B123A /* TabletNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBF3F8D62DE4F3CC007B123A /* TabletNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF3F8E82DE4F3CC007B123A /* Build configuration list for PBXNativeTarget "TabletNotesUITests" */;
+			buildPhases = (
+				BBF3F8D32DE4F3CC007B123A /* Sources */,
+				BBF3F8D42DE4F3CC007B123A /* Frameworks */,
+				BBF3F8D52DE4F3CC007B123A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBF3F8D92DE4F3CC007B123A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BBF3F8DA2DE4F3CC007B123A /* TabletNotesUITests */,
+			);
+			name = TabletNotesUITests;
+			packageProductDependencies = (
+			);
+			productName = TabletNotesUITests;
+			productReference = BBF3F8D72DE4F3CC007B123A /* TabletNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBF3F8B42DE4F3CA007B123A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					BBF3F8BB2DE4F3CA007B123A = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					BBF3F8CC2DE4F3CC007B123A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = BBF3F8BB2DE4F3CA007B123A;
+					};
+					BBF3F8D62DE4F3CC007B123A = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = BBF3F8BB2DE4F3CA007B123A;
+					};
+				};
+			};
+			buildConfigurationList = BBF3F8B72DE4F3CA007B123A /* Build configuration list for PBXProject "TabletNotes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBF3F8B32DE4F3CA007B123A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BBF3F8BD2DE4F3CA007B123A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF3F8BB2DE4F3CA007B123A /* TabletNotes */,
+				BBF3F8CC2DE4F3CC007B123A /* TabletNotesTests */,
+				BBF3F8D62DE4F3CC007B123A /* TabletNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBF3F8BA2DE4F3CA007B123A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF3F8CB2DE4F3CC007B123A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF3F8D52DE4F3CC007B123A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBF3F8B82DE4F3CA007B123A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF3F8C92DE4F3CC007B123A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF3F8D32DE4F3CC007B123A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBF3F8CF2DE4F3CC007B123A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBF3F8BB2DE4F3CA007B123A /* TabletNotes */;
+			targetProxy = BBF3F8CE2DE4F3CC007B123A /* PBXContainerItemProxy */;
+		};
+		BBF3F8D92DE4F3CC007B123A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBF3F8BB2DE4F3CA007B123A /* TabletNotes */;
+			targetProxy = BBF3F8D82DE4F3CC007B123A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBF3F8E12DE4F3CC007B123A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabletNotes/TabletNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G6W9N2YC6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabletNotes/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires access to the microphone to record audio.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TabletNotes.TabletNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBF3F8E22DE4F3CC007B123A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabletNotes/TabletNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G6W9N2YC6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabletNotes/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires access to the microphone to record audio.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TabletNotes.TabletNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBF3F8E32DE4F3CC007B123A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6G6W9N2YC6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBF3F8E42DE4F3CC007B123A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6G6W9N2YC6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBF3F8E62DE4F3CC007B123A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G6W9N2YC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TabletNotes.TabletNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabletNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabletNotes";
+			};
+			name = Debug;
+		};
+		BBF3F8E72DE4F3CC007B123A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G6W9N2YC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TabletNotes.TabletNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabletNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabletNotes";
+			};
+			name = Release;
+		};
+		BBF3F8E92DE4F3CC007B123A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G6W9N2YC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TabletNotes.TabletNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabletNotes;
+			};
+			name = Debug;
+		};
+		BBF3F8EA2DE4F3CC007B123A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G6W9N2YC6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TabletNotes.TabletNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabletNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBF3F8B72DE4F3CA007B123A /* Build configuration list for PBXProject "TabletNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF3F8E32DE4F3CC007B123A /* Debug */,
+				BBF3F8E42DE4F3CC007B123A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF3F8E02DE4F3CC007B123A /* Build configuration list for PBXNativeTarget "TabletNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF3F8E12DE4F3CC007B123A /* Debug */,
+				BBF3F8E22DE4F3CC007B123A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF3F8E52DE4F3CC007B123A /* Build configuration list for PBXNativeTarget "TabletNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF3F8E62DE4F3CC007B123A /* Debug */,
+				BBF3F8E72DE4F3CC007B123A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF3F8E82DE4F3CC007B123A /* Build configuration list for PBXNativeTarget "TabletNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF3F8E92DE4F3CC007B123A /* Debug */,
+				BBF3F8EA2DE4F3CC007B123A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBF3F8B42DE4F3CA007B123A /* Project object */;
+}
