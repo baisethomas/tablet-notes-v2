@@ -126,13 +126,52 @@ private struct TranscriptContentView: View {
 
 private struct NotesContentView: View {
     let sermonId: UUID
+    @Environment(\.modelContext) private var modelContext
+    @Query private var notes: [SermonNoteModel]
     @State private var notesText: String = ""
+    @State private var isLoaded = false
+    @State private var saveTask: Task<Void, Never>? = nil
     
     var body: some View {
         ScrollView {
             TextEditor(text: $notesText)
                 .frame(minHeight: 200)
                 .padding()
+                .onChange(of: notesText) { newValue in
+                    saveTask?.cancel()
+                    saveTask = Task {
+                        try? await Task.sleep(nanoseconds: 500_000_000) // 0.5s debounce
+                        await saveNote()
+                    }
+                }
+                .onAppear {
+                    if !isLoaded {
+                        if let note = notes.first(where: { $0.sermonId == sermonId }) {
+                            notesText = note.text
+                        } else {
+                            // Create a new note for this sermon
+                            let newNote = SermonNoteModel(sermonId: sermonId)
+                            modelContext.insert(newNote)
+                            notesText = ""
+                        }
+                        isLoaded = true
+                    }
+                }
+        }
+    }
+    
+    private func saveNote() async {
+        await MainActor.run {
+            let note: SermonNoteModel
+            if let existing = notes.first(where: { $0.sermonId == sermonId }) {
+                note = existing
+            } else {
+                note = SermonNoteModel(sermonId: sermonId)
+                modelContext.insert(note)
+            }
+            note.text = notesText
+            note.updatedAt = Date()
+            try? modelContext.save()
         }
     }
 }
